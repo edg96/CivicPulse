@@ -1,0 +1,161 @@
+/* Header section */
+
+.nav-logo {
+  width: 19.6rem;
+  height: 6.6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaf6ec;
+  height: 9.6rem;
+  padding: 0px 4.8rem;
+}
+
+/* Navigation section */
+
+.main-nav-list {
+  display: flex;
+  gap: 4.8rem;
+  list-style: none;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #24963e;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.9rem 2.8rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #28a745;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #24963e;
+}
+
+/* Hero section */
+
+.section-hero {
+  background-color: #eaf6ec;
+  padding: 4.8rem 0px 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+  padding: 0px 4.8rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-bottom: 4.8rem;
+  color: #555;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.community-citizens {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.citizens-faces {
+  display: flex;
+}
+
+.citizens-faces img {
+  height: 4.8rem;
+  width: 4.8rem;
+  margin-right: -1.6rem;
+  border-radius: 50%;
+  border: 3px solid #eaf6ec;
+}
+
+.citizens-faces img:last-child {
+  margin-right: 0;
+}
+
+.citizens-message {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.citizens-message span {
+  color: #24963e;
+  font-weight: 700;
+}
+
+/* How-it-works section */
+
+/* How-it-works section */
+
+/* How-it-works section */
+.how-it-works {
+  padding: 9.6rem 0;
+}
+
+.how-it-works-image-box {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.element-number {
+  font-size: 8.8rem;
+  font-weight: 700;
+  color: #ddd;
+  margin-bottom: 4.8rem;
+  max-width: 100%;
+  line-height: 1;
+  text-align: left;
+}
+
+.element-description {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 3.8rem;
+  line-height: 1.5em;
+  padding: 1rem 0;
+}
+
+.how-it-works-description {
+  padding-right: 4rem;
+}
+
+.how-it-works-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4rem;
+}
