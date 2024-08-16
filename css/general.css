@@ -1,38 +1,40 @@
 /*
---- 01. Typography system ---
+--- 01. Typography System ---
 SPACING SYSTEM (PX):
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 FONT SIZE SYSTEM (PX):
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
-FONT WEIGHTS (PX):
-DEFAULT: 400
-MEDIUM: 500
-Semi-bold: 600
-Bold: 700
+FONT WEIGHTS:
+- Default: 400
+- Medium: 500
+- Semi-Bold: 600
+- Bold: 700
 
-LINE HEIGHTS (PX):
-DEFAULT: 1
-OTHERS: 1.05
-Medium: 1.2
-Paragraphs default: 1.5
+LINE HEIGHTS:
+- Default: 1
+- Other Variants: 1.05
+- Medium: 1.2
+- Paragraphs Default: 1.5
 
-- Letter spacing: 
+LETTER SPACING:
 -0.5px
 0.75px
 
---- 02. Color system ---
+--- 02. Color System ---
 PRIMARY COLOR (BRAND): #28A745
-SECONDARY COLOR (GREY):
+SECONDARY COLORS (GREY):
 - #555
 - #333
 TINTS: #eaf6ec
 
---- 03. Border radius ---
+--- 03. Border Radius ---
 DEFAULT: 9px
-
+Medium: 12px
 */
+
+/* *General styles */
 
 * {
   margin: 0px;
@@ -51,7 +53,7 @@ body {
   color: #eaf6ec;
 }
 
-/* Utility classes */
+/* *Utility classes */
 
 .container {
   max-width: 120rem;
@@ -76,7 +78,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-/* General components */
+/* *General components */
 
 .heading-primary,
 .heading-secondary,

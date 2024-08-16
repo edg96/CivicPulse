@@ -1,4 +1,4 @@
-/* Header section */
+/* *Header section */
 
 .nav-logo {
   width: 19.6rem;
@@ -14,7 +14,7 @@
   padding: 0px 4.8rem;
 }
 
-/* Navigation section */
+/* *Navigation section */
 
 .main-nav-list {
   display: flex;
@@ -51,7 +51,7 @@
   background-color: #24963e;
 }
 
-/* Hero section */
+/* *Hero section */
 
 .section-hero {
   background-color: #eaf6ec;
@@ -114,16 +114,13 @@
   font-weight: 700;
 }
 
-/* How-it-works section */
+/* *Why-CivicPulse section */
 
-/* How-it-works section */
-
-/* How-it-works section */
-.how-it-works {
+.why-civicpulse {
   padding: 9.6rem 0;
 }
 
-.how-it-works-image-box {
+.benefit-image-box {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -149,13 +146,84 @@
   padding: 1rem 0;
 }
 
-.how-it-works-description {
+.benefit-description {
   padding-right: 4rem;
 }
 
-.how-it-works-image {
+.benefit-image {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 4rem;
+}
+
+/* *Examples-and-consequences section */
+
+.examples-and-consequences {
+  padding: 9.6rem 0;
+}
+
+.singular-examples {
+  box-shadow: 0 2.4px 4.8px rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.singular-example-image {
+  width: 100%;
+}
+
+.singular-example-box {
+  padding: 1.6rem;
+}
+
+.singular-example-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #555;
+  margin-bottom: 3.2rem;
+}
+
+.singular-example-attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: none;
+  color: #555;
+}
+
+.singular-example-attribute {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.list-element-icon {
+  flex-shrink: 0;
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #24963e;
+}
+
+.list-element-text {
+  font-weight: 600;
+}
+
+.singular-example-tags {
+  display: flex;
+  gap: 0.6rem;
+  margin: 0 0 2.4rem 0;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border-radius: 9px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #f3f3f3;
+  background-color: #24963e;
+  border-radius: 100px;
 }
