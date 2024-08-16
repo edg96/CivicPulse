@@ -23,8 +23,7 @@ Main personality: Startup/Upbeat
 
 - Navigation (includes the logo)
 - Hero
-- Featured in
-- Mission
+- How it works + Goals/Reason
 - Gallery (use images of the mobile application)
 - **PAUSED:**Testimonials (no reviews at the moment)
 - Pricing
