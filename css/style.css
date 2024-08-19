@@ -1,26 +1,25 @@
 /* *Header section */
 
-.nav-logo {
-  width: 19.6rem;
-  height: 6.6rem;
+.logo {
+  width: 16rem;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eaf6ec;
   height: 9.6rem;
   padding: 0px 4.8rem;
+  background-color: #eaf6ec;
 }
 
 /* *Navigation section */
 
 .main-nav-list {
   display: flex;
-  gap: 4.8rem;
-  list-style: none;
   align-items: center;
+  gap: 3.2rem;
+  list-style: none;
 }
 
 .main-nav-link:link,
@@ -28,8 +27,8 @@
   display: inline-block;
   font-size: 1.8rem;
   font-weight: 600;
-  color: #333;
   text-decoration: none;
+  color: #333;
   transition: all 0.2s;
 }
 
@@ -40,7 +39,7 @@
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-  padding: 1.9rem 2.8rem;
+  padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
   background-color: #28a745;
@@ -59,21 +58,21 @@
 }
 
 .hero {
-  max-width: 130rem;
-  margin: 0px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
   align-items: center;
-  padding: 0px 4.8rem;
+  gap: 9.6rem;
+
+  max-width: 130rem;
+  padding: 0 4.8rem;
+  margin: 0 auto;
 }
 
 .hero-description {
   font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.5em;
+  line-height: 1.6em;
+
   margin-bottom: 4.8rem;
-  color: #555;
 }
 
 .hero-image {
@@ -84,6 +83,7 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+
   margin-top: 8rem;
 }
 
@@ -94,6 +94,7 @@
 .citizens-faces img {
   height: 4.8rem;
   width: 4.8rem;
+
   margin-right: -1.6rem;
   border-radius: 50%;
   border: 3px solid #eaf6ec;
@@ -106,7 +107,6 @@
 .citizens-message {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #555;
 }
 
 .citizens-message span {
@@ -120,41 +120,49 @@
   padding: 9.6rem 0;
 }
 
-.benefit-image-box {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  max-width: 100%;
-}
-
 .element-number {
-  font-size: 8.8rem;
-  font-weight: 700;
+  font-size: 8.6rem;
+  font-weight: 600;
+
+  /* max-width: 100%; */
+  margin-bottom: 1.2rem;
+  /* text-align: left; */
   color: #ddd;
-  margin-bottom: 4.8rem;
-  max-width: 100%;
-  line-height: 1;
-  text-align: left;
 }
 
 .element-description {
-  font-size: 2.4rem;
-  font-weight: 600;
-  color: #555;
+  font-size: 1.8rem;
+  /* font-weight: 600; */
+  line-height: 1.8;
+
+  /* padding: 1rem 0;
   margin-bottom: 3.8rem;
-  line-height: 1.5em;
-  padding: 1rem 0;
+  
+  color: #555; */
 }
 
-.benefit-description {
-  padding-right: 4rem;
+.benefit-image-box {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 100%; */
 }
+
+/* .benefit-box {
+  padding-right: 4rem;
+} */
 
 .benefit-image {
-  display: flex;
+  width: 85%;
+
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 4rem;
+  padding-left: 4rem; */
 }
 
 /* *Examples-and-consequences section */
@@ -163,67 +171,443 @@
   padding: 9.6rem 0;
 }
 
-.singular-examples {
+.singular-example {
   box-shadow: 0 2.4px 4.8px rgba(0, 0, 0, 0.075);
   border-radius: 12px;
   overflow: hidden;
+
+  transition: all 0.4s;
+}
+
+.singular-example:hover {
+  transform: translate3d(0, -0.4rem, 0);
+  box-shadow: 0 3.2px 6.4px rgba(0, 0, 0, 0.1);
+}
+
+.singular-example-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.singular-example-tags {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 600;
+
+  border-radius: 100px;
+  padding: 0.4rem 0.8rem;
+
+  color: #f3f3f3;
+  background-color: #24963e;
+  text-transform: uppercase;
+}
+
+.tag--frequency {
+  background-color: #339999;
+}
+
+.tag--status {
+  background-color: #b30000;
 }
 
 .singular-example-image {
   width: 100%;
 }
 
-.singular-example-box {
-  padding: 1.6rem;
-}
-
 .singular-example-title {
   font-size: 2.4rem;
-  font-weight: 700;
-  color: #555;
+  font-weight: 600;
+  color: #333;
   margin-bottom: 3.2rem;
 }
 
 .singular-example-attributes {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 2rem;
+
   list-style: none;
-  color: #555;
 }
 
 .singular-example-attribute {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+
   font-size: 1.8rem;
-  line-height: 2.6rem;
 }
 
-.list-element-icon {
-  flex-shrink: 0;
-  width: 2.4rem;
-  height: 2.4rem;
+.start-a-change {
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+/* *Testimonials section */
+
+.section-testimonials {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+
+  background-color: #eaf6ec;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial-image {
+  width: 6.4rem;
+
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+
+  margin-bottom: 1.6rem;
+
+  color: #555;
+}
+
+.testimonial-author {
+  font-size: 1.6rem;
+
+  color: #777;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+/* *Pricing section */
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-plan {
+  width: 75%;
+  border-radius: 12px;
+}
+
+.pricing-plan--basic {
+  justify-self: end;
+
+  padding: 4.6rem;
+
+  border: 2px solid #eaf6ec;
+}
+
+.pricing-plan--premium {
+  position: relative;
+  padding: 4.8rem;
+
+  overflow: hidden;
+  background-color: #eaf6ec;
+}
+
+.pricing-plan--premium::after {
+  position: absolute;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 0.8rem 3.2rem;
+  top: 6%;
+  right: -9%;
+
+  content: "Full package";
+  text-transform: uppercase;
+
+  color: #333;
+  background-color: #ffd43b;
+
+  transform: translateY(-50%) rotate(45deg);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.pricing-plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.pricing-plan-name {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  margin-bottom: 3.2rem;
+
+  text-transform: uppercase;
   color: #24963e;
 }
 
-.list-element-text {
-  font-weight: 600;
-}
-
-.singular-example-tags {
+.pricing-plan-value {
   display: flex;
-  gap: 0.6rem;
-  margin: 0 0 2.4rem 0;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 6.2rem;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.6rem;
+
+  color: #333;
 }
 
-.tag {
-  display: inline-block;
-  padding: 0.8rem 1.6rem;
-  border-radius: 9px;
-  font-size: 1.4rem;
+.pricing-plan-value span {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.pricing-plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+
+  color: #6f6f6f;
+}
+
+.price-plan span {
+  font-size: 3rem;
+  font-weight: 500;
+
+  margin-right: 0.8rem;
+}
+
+.price-plan-sing-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.pricing-plan-taxes {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+
+  color: #6f6f6f;
+}
+
+/* *Features section */
+
+.feature-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+
+  flex-shrink: 0;
+  background-color: #eaf6ec;
+  color: #24963e;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  margin-bottom: 1.6rem;
+  color: #333;
+}
+
+.feature-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+
+  color: #6f6f6f;
+}
+
+/* *Call-to-action section */
+
+.section-cta {
+  padding: 4.8rem 0 12.8rem;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  border-radius: 12px;
+  background-color: #eaf6ec;
+  box-shadow: 0 2.4px 4.8px rgba(0, 0, 0, 0.655);
+
+  overflow: hidden;
+  background-image: linear-gradient(to left top, #53b96a, #0c3215);
+}
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem;
+  color: #fff;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #fff;
+}
+
+.cta-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+
+  margin-bottom: 4.8rem;
+}
+
+.cta-image-box {
+  background-image: url(../images/current/family_planting_trees.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  margin-bottom: 0.8rem;
+  font-family: inherit;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  font-size: 1.6rem;
   font-weight: 600;
-  color: #f3f3f3;
-  background-color: #24963e;
-  border-radius: 100px;
+
+  padding: 1.2rem 1.6rem;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 2.4px 4.8px rgba(0, 0, 0, 0.1);
+
+  font-family: inherit;
+  background-color: #eaf6ec;
+}
+
+.cta-form input::placeholder {
+  color: #a1a1a1;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgba(253, 242, 233, 0.3);
+}
+
+/* *Footer section */
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 2px solid #d3ead8;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.footer-logo {
+  display: block;
+}
+
+.logo-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  text-decoration: none;
+  color: #767676;
+
+  transition: all 0.2s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #333;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+
+  list-style: none;
+}
+
+.social-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-top: auto;
+
+  color: #767676;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
 }
