@@ -4,6 +4,8 @@
 
 ### Description
 
+[Take a live look at my website powered by Netlify](https://civicpulse.netlify.app/)
+
 ![CivicPulse Website](./images/current/CivicPulseWebsite.png)
 
 We are a civic technology company focused on empowering citizens to improve their communities. Our website allows users to track problems in their town and hold officials accountable. Users can report issues like potholes or broken streetlights, track promises made by officials during their campaigns, and monitor ongoing projects. CivicPulse keeps you informed and ensures that your voice is heard, helping to create towns that are designed for people, not just cars and businesses.

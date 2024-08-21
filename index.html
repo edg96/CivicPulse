@@ -792,7 +792,7 @@
                 can create communities that work for everyone.
               </p>
 
-              <form class="cta-form" action="#">
+              <form class="cta-form" name="sing-up" netlify>
                 <div>
                   <label for="full-name" class="cta-label">Your name</label>
                   <input
@@ -800,6 +800,7 @@
                     type="name"
                     class="cta-input"
                     placeholder="Michael Scott"
+                    name="full-name"
                     required
                   />
                 </div>
@@ -811,6 +812,7 @@
                     type="email"
                     class="cta-input"
                     placeholder="mscott87@gmail.com"
+                    name="email"
                     required
                   />
                 </div>
@@ -819,7 +821,11 @@
                   <label for="select-where" class="cta-label"
                     >Where did you hear from us?</label
                   >
-                  <select id="select-where" class="cta-select">
+                  <select
+                    id="select-where"
+                    class="cta-select"
+                    name="select-where"
+                  >
                     <option value="" selected disabled hidden>
                       Please chose one option
                     </option>
