@@ -4,7 +4,9 @@
 
 ### Description
 
-We are a civic technology company focused on empowering citizens to improve their communities. Our app allows users to track problems in their town and hold officials accountable. Users can report issues like potholes or broken streetlights, track promises made by officials during their campaigns, and monitor ongoing projects. CivicPulse keeps you informed and ensures that your voice is heard, helping to create towns that are designed for people, not just cars and businesses.
+![CivicPulse Website](./images/current/CivicPulseWebsite.png)
+
+We are a civic technology company focused on empowering citizens to improve their communities. Our website allows users to track problems in their town and hold officials accountable. Users can report issues like potholes or broken streetlights, track promises made by officials during their campaigns, and monitor ongoing projects. CivicPulse keeps you informed and ensures that your voice is heard, helping to create towns that are designed for people, not just cars and businesses.
 
 ### Branding
 
@@ -20,7 +22,7 @@ CivicPulse is your tool for community empowerment. Track issues, hold officials 
 
 ### Report Issues
 
-Quickly report local problems like potholes, broken lights, or unsafe sidewalks directly through the app.
+Quickly report local problems like potholes, broken lights, or unsafe sidewalks directly through the website.
 
 ### Track Promises
 
@@ -33,10 +35,6 @@ Stay updated on the progress of local projects, and see if officials are deliver
 ### Community Involvement
 
 Engage with other citizens, share updates, and work together to improve your community.
-
-### How CivicPulse works
-
-[Show big app images]
 
 ### Make Your Town Better in 3 Simple Steps
 
@@ -56,8 +54,7 @@ Engage with other citizens, share updates, and work together to improve your com
 
 ### We Offer Free Registration
 
-_//TODO: Add the image of sing-up form (make it inviting and easy)
-[Insert image: Create a simple form for users to sign up]_
+![Registration Form](./images/current/Registration.png)
 
 Join CivicPulse for free and start making a difference in your community. Together, we can create better towns for everyone. Sign up today and start reporting!
 
@@ -80,14 +77,21 @@ Pro: custom amount per month (the user decides the amount)
 
 ## Photo Gallery
 
-_//TODO: Add the collection of images after finishing the site
-[Not available at the moment]_
+![Examples Section](./images/current/CivicPulseWebsite_Gallery_1.png)
+![Testimonials Section](./images/current/CivicPulseWebsite_Gallery_2.png)
+![Price Plans Section](./images/current/CivicPulseWebsite_Gallery_3.png)
+![Features Section](./images/current/CivicPulseWebsite_Gallery_4.png)
 
 ## Contact Information
 
-- Contact Information
-- Address: 123 Civic Center, 5th Floor, YourTown, YT 12345
-- Phone: 123-456-7890
-- Email: <contact@civicpulse.com>
+- Strada Marasesti 52, Sector 4, 040254, Bucharest, Romania
+- +40 723 654 198
+- hicivicpulse@gmail.com
 
-Social Profiles: Instagram, Facebook, Twitter [links to them not available yet]
+Social Profiles:
+
+- Instagram
+- Facebook
+- Twitter
+
+[Links for the socials are not available at the given moment]

@@ -2,33 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="CivicPulse is your tool to report local issues, track promises made by officials, and stay updated on community projects"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="images/current/logos/favicon.png" />
+    <link
+      rel="apple-touch-icon"
+      href="images/current/logos/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+
     <link rel="stylesheet" href="css/general.css" />
-    <title>CivicPulse</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script defer src="js/script.js"></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <title>CivicPulse &mdash; a better community</title>
   </head>
   <body>
     <header class="header">
-      <img
-        class="logo"
-        alt="CivicPulse logo"
-        src="images/current/logo_full.png"
-      />
+      <a href="#">
+        <img
+          class="logo"
+          alt="CivicPulse logo"
+          src="images/current/logo_full.png"
+        />
+      </a>
+
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How It Works</a></li>
-          <li><a class="main-nav-link" href="#">Our mission</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Get Started</a></li>
+          <li><a class="main-nav-link" href="#mission">Our mission</a></li>
+          <li><a class="main-nav-link" href="#examples">Examples</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#contact">Contact</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -43,10 +75,10 @@
               made by officials, and stay updated on community projects.
               Together, we can create communities that work for everyone.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Report an issue</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#mission" class="btn btn--outline">Learn more &darr;</a>
 
             <div class="community-citizens">
               <div class="citizens-faces">
@@ -82,16 +114,51 @@
           </div>
 
           <div class="hero-image-box">
+            <picture>
+              <source
+                srcset="images/current/hero_montaje.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="images/current/hero_montaje.png"
+                type="image/png"
+              />
+              <img
+                class="hero-image"
+                src="images/current/hero_montaje.png"
+                alt="Collage of a couple biking, a house with trees, and a mother and daughter walking in a car-free boulevard"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
             <img
-              class="hero-image"
-              alt="Collage of a couple biking, a house with trees, and a mother and daughter walking in a car-free boulevard"
-              src="images/current/hero_montaje.png"
+              src="images/current/logos/techcrunch.png"
+              alt="Techcrunch logo"
+            />
+            <img
+              src="images/current/logos/business-insider.png"
+              alt="Business Insider logo"
+            />
+            <img
+              src="images/current/logos/the-new-york-times.png"
+              alt="The New York Times logo"
+            />
+            <img src="images/current/logos/forbes.png" alt="Forbes logo" />
+            <img
+              src="images/current/logos/usa-today.png"
+              alt="USA Today logo"
             />
           </div>
         </div>
       </section>
 
-      <section class="why-civicpulse">
+      <section class="why-civicpulse" id="mission">
         <div class="container">
           <span class="subheading">Our Mission</span>
           <h2 class="heading-secondary">
@@ -116,7 +183,7 @@
             <img
               class="benefit-image"
               alt="An asian teenager thinking about his community problems"
-              src="images/current/man_thinking.jpg"
+              src="images/current/man_thinking.webp"
             />
           </div>
 
@@ -125,7 +192,7 @@
             <img
               class="benefit-image"
               alt="A group of people holding together and hugging each other"
-              src="images/current/people_holding_together.jpg"
+              src="images/current/people_holding_together.webp"
             />
           </div>
           <div class="benefit-box">
@@ -154,13 +221,13 @@
             <img
               class="benefit-image"
               alt="An elderly man playing with his grandchildren's"
-              src="images/current/young_and_old.jpg"
+              src="images/current/young_and_old.webp"
             />
           </div>
         </div>
       </section>
 
-      <section class="examples-and-consequences">
+      <section class="examples-and-consequences" id="examples">
         <div class="container center-text">
           <span class="subheading">Examples of common issues</span>
           <h2 class="heading-secondary">
@@ -173,7 +240,7 @@
           <div class="singular-example">
             <img
               class="singular-example-image"
-              src="images/current/cars_over_sidewalk.jpg"
+              src="images/current/cars_over_sidewalk.webp"
               alt="Overcrowded streets filled with cars and occupying the sidewalk"
             />
 
@@ -230,7 +297,7 @@
           <div class="singular-example">
             <img
               class="singular-example-image"
-              src="images/current/buildings_everywhere.jpg"
+              src="images/current/buildings_everywhere.webp"
               alt="An aerial view of a town with no green spaces"
             />
 
@@ -283,7 +350,7 @@
             </div>
           </div>
 
-          <div class="list-of-example">
+          <div class="list-of-examples">
             <h3 class="heading-tertiary">Taking action:</h3>
             <ul class="list">
               <li class="list-item">
@@ -344,7 +411,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="subheading">What our users say</span>
           <h2 class="heading-secondary">Testimonials</h2>
@@ -404,6 +471,34 @@
                 community interaction."
               </blockquote>
               <p class="testimonial-author">&mdash; Amara Mbali</p>
+            </figure>
+
+            <!-- TESTIMONIAL 05 -->
+            <figure class="testimonial">
+              <img
+                class="testimonial-image"
+                src="images/current/testimonial_commentary_person_5.jpg"
+                alt="The face of one person who gave a testimonial"
+              />
+              <blockquote class="testimonial-text">
+                "CivicPulse has empowered me to make real changes in my
+                neighborhood. It's incredibly easy to use and very effective!"
+              </blockquote>
+              <p class="testimonial-author">&mdash; Lucas Hernandez</p>
+            </figure>
+
+            <!-- TESTIMONIAL 06 -->
+            <figure class="testimonial">
+              <img
+                class="testimonial-image"
+                src="images/current/testimonial_commentary_person_6.jpg"
+                alt="The face of one person who gave a testimonial"
+              />
+              <blockquote class="testimonial-text">
+                "I love how CivicPulse keeps me connected to local issues. It’s
+                made me more engaged and aware of what’s happening in my town."
+              </blockquote>
+              <p class="testimonial-author">&mdash; Priya Patel</p>
             </figure>
           </div>
         </div>
@@ -472,10 +567,31 @@
               alt="The face of one person who gave a testimonial"
             />
           </figure>
+          <figure class="gallery-item">
+            <img
+              class="gallery-image"
+              src="images/current/testimonial_person_10.jpg"
+              alt="The face of one person who gave a testimonial"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              class="gallery-image"
+              src="images/current/testimonial_person_11.jpg"
+              alt="The face of one person who gave a testimonial"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              class="gallery-image"
+              src="images/current/testimonial_person_12.jpg"
+              alt="The face of one person who gave a testimonial"
+            />
+          </figure>
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">Choose the plan that works for you</h2>
@@ -663,7 +779,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -731,7 +847,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="container grid--smaller grid--footer">
         <div class="logo-column">
           <a href="#" class="footer-logo">
