@@ -1,4 +1,4 @@
-/* *Below 1344px (smaller desktops) */
+/* Below 1344px (smaller desktops) */
 
 @media (max-width: 84em) {
   .hero {
@@ -10,7 +10,7 @@
   }
 }
 
-/* *Below 1200px (Landscape tablets) */
+/* Below 1200px (Landscape tablets) */
 
 @media (max-width: 75em) {
   html {
@@ -43,7 +43,7 @@
   }
 }
 
-/* *Below 944px (Portrait tablets) */
+/* Below 944px (Portrait tablets) */
 
 @media (max-width: 59em) {
   html {
@@ -148,7 +148,7 @@
   }
 }
 
-/* *Below 704 (Landscape phones) */
+/* Below 704 (Landscape phones) */
 
 @media (max-width: 44em) {
   .grid--3-cols,
@@ -184,7 +184,7 @@
     grid-column: span 3;
   }
 
-  /* *Below 544px (Phones) */
+  /* Below 544px (Phones) */
 
   @media (max-width: 34em) {
     .grid {

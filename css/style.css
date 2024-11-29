@@ -1,4 +1,4 @@
-/* *Header section */
+/* Header section */
 
 .logo {
   width: 16rem;
@@ -14,7 +14,7 @@
   background-color: #eaf6ec;
 }
 
-/* *Navigation section */
+/* Navigation section */
 
 .sticky .header {
   position: fixed;
@@ -85,7 +85,7 @@
   display: none;
 }
 
-/* *Hero section */
+/* Hero section */
 
 .section-hero {
   background-color: #eaf6ec;
@@ -149,7 +149,7 @@
   font-weight: 700;
 }
 
-/* *Featured in section */
+/* Featured in section */
 
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
@@ -176,7 +176,7 @@
   opacity: 50%;
 }
 
-/* *Why-CivicPulse section */
+/* Why-CivicPulse section */
 
 .why-civicpulse {
   padding: 9.6rem 0;
@@ -205,7 +205,7 @@
   width: 85%;
 }
 
-/* *Examples-and-consequences section */
+/* Examples-and-consequences section */
 
 .examples-and-consequences {
   padding: 9.6rem 0;
@@ -287,7 +287,7 @@
   font-size: 2.4rem;
 }
 
-/* *Testimonials section */
+/* Testimonials section */
 
 .section-testimonials {
   display: grid;
@@ -353,7 +353,7 @@
   transform: scale(1.1);
 }
 
-/* *Pricing section */
+/* Pricing section */
 
 .section-pricing {
   padding: 9.6rem 0;
@@ -460,7 +460,7 @@
   color: #6f6f6f;
 }
 
-/* *Features section */
+/* Features section */
 
 .feature-icon {
   width: 3.2rem;
@@ -490,7 +490,7 @@
   color: #6f6f6f;
 }
 
-/* *Call-to-action section */
+/* Call-to-action section */
 
 .section-cta {
   padding: 4.8rem 0 12.8rem;
@@ -572,7 +572,7 @@
   box-shadow: 0 0 0 0.4rem rgba(253, 242, 233, 0.3);
 }
 
-/* *Footer section */
+/* Footer section */
 
 .footer {
   padding: 12.8rem 0;

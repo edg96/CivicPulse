@@ -36,7 +36,7 @@ DEFAULT: 9px
 Medium: 12px
 */
 
-/* *General styles */
+/* General styles */
 
 * {
   margin: 0;
@@ -69,7 +69,7 @@ body {
   box-shadow: 0 0 0 0.4rem rgba(40, 167, 69, 0.3);
 }
 
-/* *Utility classes */
+/* Utility classes */
 
 .container {
   max-width: 120rem;
@@ -113,7 +113,7 @@ body {
   margin-bottom: 9.6rem;
 }
 
-/* *General components */
+/* General components */
 
 .heading-primary,
 .heading-secondary,
@@ -263,7 +263,7 @@ body {
   color: #24963e;
 }
 
-/* *Helper classes */
+/* Helper classes */
 
 .center-text {
   text-align: center;
