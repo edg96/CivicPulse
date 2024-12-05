@@ -1,4 +1,4 @@
-# CivicPulse
+- # CivicPulse
 
 ## About CivicPulse
 
@@ -48,11 +48,11 @@ Engage with other citizens, share updates, and work together to improve your com
 
 ### CivicPulse Supports Various Community Needs
 
-- **Green Spaces:** Parks, gardens, and recreational areas.
-- **Infrastructure:** Roads, sidewalks, and public facilities.
-- **Safety:** Streetlights, crosswalks, and traffic signals.
-- **Schools:** Education facilities and playgrounds.
-- **Accessibility:** Pavement space, ramps, and public transport.
+- **Green Spaces:** - Parks, gardens, and recreational areas.
+- **Infrastructure:** - Roads, sidewalks, and public facilities.
+- **Safety:** - Streetlights, crosswalks, and traffic signals.
+- **Schools:** - Education facilities and playgrounds.
+- **Accessibility:** - Pavement space, ramps, and public transport.
 
 ### We Offer Free Registration
 
